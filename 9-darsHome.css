@@ -1,0 +1,116 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 3%;
+}
+main{
+    width: 100%; 
+    height: 100%; 
+    background-color: red;
+}
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around; 
+}
+.both{
+}
+/* .container div{
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+} */
+.black{
+    background-color: darkslateblue;
+    margin-top: 70px;
+    border-radius: 10px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+.black .icons{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    list-style: none;
+    padding: 25px;
+    /* background-color: aqua; */
+    /* z-index: 1; */
+    
+
+}
+.black:hover .icons{
+    top: -50px;
+    left: -50px;
+}
+.skyblue{
+   margin-top: 70px;
+    background-color:skyblue;
+    border-radius: 10px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+   /* transition: 5s; */
+}
+.skyblue .icons{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    list-style: none;
+    padding: 25px;
+    transition: 5s;
+    /* background-color: aqua; */
+}
+.skyblue:hover .icons{
+    top: -50px;
+    left: -50px;
+    transition: 5s;
+}
+.share{
+    display: flex;
+}
+.sharing{
+    margin-left: 10px;
+}
+.heart{
+    margin-left: 10px;
+
+}
+.white{
+    background-color: #fff;
+    margin-top: 70px;
+    border-radius: 10px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pink{
+    background-color: pink;
+    margin-top: 70px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.pink:hover{
+    transform: scale(1.1);
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
